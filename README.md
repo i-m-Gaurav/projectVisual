@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Project Architecture Visualizer
+
+## Features
+- Generates architecture diagrams from code
+- Interactive system documentation
+- Real-time architecture updates
+- Collaboration features
+- Export to multiple formats
+
+## Complex Features
+- Code analysis
+- Diagram generation
+- Real-time updates
+
+## Overview
+This project aims to help developers understand the architecture and flow of an application by generating visual diagrams from the codebase. It supports real-time updates and collaboration, making it easier to maintain and document the system architecture.
 
 ## Getting Started
+1. Clone the repository
+2. Install dependencies
+3. Run the application
 
-First, run the development server:
+## Possible Features
+- Parsing and analyzing code to extract architectural components
+- Generating diagrams to represent the architecture
+- Providing an interactive interface for exploring the architecture
+- Updating diagrams in real-time as the code changes
+- Allowing multiple users to collaborate on the architecture visualization
+- Exporting diagrams and documentation to various formats
 
+## Installation
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
+cd projectVisual
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
+```bash
+npm start
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
